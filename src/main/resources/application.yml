@@ -1,0 +1,20 @@
+server:
+  port: 9090
+
+spring:
+  #DB Configuration:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.107.176.7:3306/crawler?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+  #JPA Configuration:
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+spider:
+  url: https://search.51job.com/list/040000,000000,0107%252C2501,32,9,99,Java%25E5%25BC%2580%25E5%258F%2591%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=
