@@ -1,4 +1,4 @@
-package com.mz.day02_job;
+package com.mz.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Day02JobApplicationTests {
+public class AppTest {
 
     @Test
     public void contextLoads() {
